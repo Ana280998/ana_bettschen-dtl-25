@@ -64,5 +64,6 @@ Google Cloud VM: anacloud (IP: 34.141.84.162)
 
 User → Streamlit Frontend → Flask API → OpenRouter API (AI Model)
 
-![Structure](shapes at 25-10-31 20.47.13.png)
+![Structure](shapes at 25-10-31 20.45.49.png)
+
 
