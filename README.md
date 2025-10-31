@@ -64,5 +64,5 @@ Google Cloud VM: anacloud (IP: 34.141.84.162)
 
 User → Streamlit Frontend → Flask API → OpenRouter API (AI Model)
 
-![Uploading shapes at 25-10-31 20.49.05.svg…]().md
+shapes at 25-10-31 20.45.49.png.md
 
