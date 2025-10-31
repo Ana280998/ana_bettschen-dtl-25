@@ -26,6 +26,7 @@ enable-technologies.
 which will be this one:
 API_BASE_URL=https://openrouter.ai/api/v1
 OPENROUTER_TOKEN=(here was written my api-key)
+The important part here is not to share the API_KEY it can be dangerous.
 
 -Run locally
 In the next step I had to install dependencies with the following values:
@@ -34,17 +35,34 @@ Run the API like this:
 python3 api.py
 and run the fronted like this:
 streamlit run frontend.py
+Here we built the containers and start them with the systems that were already downloaded.
 
 ##### Docker setup:
 The part from the Docker started by this step asking 
 Docker to build and 
 run both services:
 docker compose up --build
+We used the comand docker compose up--build 
 
 This process was able to start 
 *Flask API (BACKEND)
 *Streamlit (FRONTED)
 
+###### Github
+We clone the Github in a repository to start the aplication
+We used port 8502 streamlit
+we used 5050 Flask API
+AND THEN WE HAD FINALLY THE ACCESS 
+
+####### Author 
+
+GitHub: Ana280998
+Docker Hub: ana280998
+Google Cloud VM: anacloud (IP: 34.141.84.162)
+
 ##  Architecture
 
 User → Streamlit Frontend → Flask API → OpenRouter API (AI Model)
+
+![Uploading shapes at 25-10-31 20.49.05.svg…]().md
+
